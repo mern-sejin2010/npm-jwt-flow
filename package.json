@@ -1,0 +1,66 @@
+{
+  "name": "jwt-flow",
+  "version": "1.0.4",
+  "description": "jwt-flow is a library for Node.js that simplifies JWT token management by generating and verifying **Access** and **Refresh** tokens with customizable payloads, expiration, and algorithms — all in a single unified auth flow.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["dist", "README.md"],
+  "keywords": [
+    "jwt",
+    "typescript",
+    "jsonwebtoken",
+    "ts-jwt",
+    "access token",
+    "refresh token",
+    "jwt helper",
+    "jwt manager",
+    "auth",
+    "authentication",
+    "auth flow",
+    "single auth",
+    "jwt rotation",
+    "security",
+    "secure jwt",
+    "token generation",
+    "token verification",
+    "jwt utils",
+    "typescript auth",
+    "typescript authentication",
+    "jwt library",
+    "jwt typescript",
+    "jwt access",
+    "jwt refresh",
+    "jwt create",
+    "jwt verify",
+    "jwt ts helper",
+    "node jwt",
+    "nodejs jwt",
+    "secure tokens",
+    "auth library",
+    "token manager",
+    "jwt workflow",
+    "jwt system",
+    "jwt solution"
+  ],
+  "author": "Sejin Ahmed",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mern-sejin2010/npm-jwt-flow.git"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
